@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity User -->
+    <dimen name="activity_user_text_title_margin_top">5dp</dimen>
+    <dimen name="activity_user_text_title_margin_bottom">10dp</dimen>
+    <dimen name="activity_user_text_title_size">18sp</dimen>
+    <dimen name="activity_user_image_view_icon_size">65dp</dimen>
+    <dimen name="activity_user_image_view_icon_margin_top">15dp</dimen>
+    <dimen name="activity_user_progressbar_size">60dp</dimen>
+    <dimen name="activity_user_progressbar_margin_bottom">8dp</dimen>
+    <dimen name="activity_user_text_message_size">18sp</dimen>
+    <dimen name="activity_user_text_message_start_end">15dp</dimen>
+    <dimen name="activity_user_recycler_view_margin_top">6dp</dimen>
+    <dimen name="activity_user_search_view_margin">10dp</dimen>
+
+    <!-- Adapter User -->
+    <dimen name="adapter_user_separate_margin_start_end">15dp</dimen>
+    <dimen name="adapter_user_separate_size_height">1dp</dimen>
+    <dimen name="adapter_user_separate_margin_top">8dp</dimen>
+    <dimen name="adapter_user_text_username_size">16sp</dimen>
+    <dimen name="adapter_user_text_username_margin_start_end">10dp</dimen>
+    <dimen name="adapter_user_image_view_avatar_size">50dp</dimen>
+    <dimen name="adapter_user_image_view_avatar_margin_top_start">10dp</dimen>
+</resources>

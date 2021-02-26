@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Usuários GitHub</string>
+    <string name="message_error_search_users">Ocorreu um erro ao buscar os usuários :( \n Tente novamente depois</string>
+    <string name="message_wait_process">Aguarde um momento…</string>
+    <string name="message_search_not_found">Usuário não encontrado, tente novamente</string>
+    <string name="hint_search_user_by_username">Pesquisar…</string>
+</resources>

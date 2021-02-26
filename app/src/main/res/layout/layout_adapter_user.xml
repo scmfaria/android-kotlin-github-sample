@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageUrl"
+        android:layout_width="@dimen/adapter_user_image_view_avatar_size"
+        android:layout_height="@dimen/adapter_user_image_view_avatar_size"
+        android:layout_marginStart="@dimen/adapter_user_image_view_avatar_margin_top_start"
+        android:layout_marginTop="@dimen/adapter_user_image_view_avatar_margin_top_start"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/adapter_user_text_username_margin_start_end"
+        android:layout_marginEnd="@dimen/adapter_user_text_username_margin_start_end"
+        android:textSize="@dimen/adapter_user_text_username_size"
+        tools:text="scmfaria"
+        app:layout_constraintBottom_toBottomOf="@+id/imageUrl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageUrl"
+        app:layout_constraintTop_toTopOf="@+id/imageUrl" />
+
+    <View
+        android:id="@+id/mViewSeparate"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/adapter_user_separate_size_height"
+        android:layout_marginStart="@dimen/adapter_user_separate_margin_start_end"
+        android:layout_marginTop="@dimen/adapter_user_separate_margin_top"
+        android:layout_marginEnd="@dimen/adapter_user_separate_margin_start_end"
+        android:background="@color/color_gray_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageUrl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
